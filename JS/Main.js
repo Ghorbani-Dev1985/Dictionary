@@ -5,6 +5,7 @@ const DicContainerDetails = $.querySelector("#DicContainerDetails");
 function GetDicData() {
   let getUserWord = DicWordInput.value;
   DicContainerDetails.classList.add("flex-center")
+  DicContainerDetails.classList.remove('error')
   DicContainerDetails.innerHTML = `<img src="./../Images/loading.svg" alt="ghorbani-dev.ir" />`
   fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${getUserWord}`)
     .then((res) => res.json())
