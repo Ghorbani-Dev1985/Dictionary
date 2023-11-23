@@ -6,7 +6,7 @@
 
 # App Preview
 
-![Anurag Hazra Site Preview](./Assets/Images/Screenshot.png)
+![Anurag Hazra Site Preview](./Images/Screenshot.png)
 
 ---
 
