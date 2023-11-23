@@ -34,6 +34,7 @@ body {
     height: 100vh;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -152,7 +153,16 @@ body {
 .Audio{
     cursor: pointer;
 }
-
+footer{
+    color: #ffffff;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    margin-top: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
 @media (300px <= width <= 500px){
     #DicWordInput{
         padding: 10px 5px;
