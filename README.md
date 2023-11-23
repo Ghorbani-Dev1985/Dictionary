@@ -16,7 +16,7 @@ Develop with JS by API
 <li>Show part of speech</li>
 <li>Show UK and US pronunciation</li>
 <li>Show UK and US phonetics</li>
-<li>Show word definitions<li>
+<li>Show word definitions</li>
 <li>Show an example of word usage</li>
 </ul>
 
